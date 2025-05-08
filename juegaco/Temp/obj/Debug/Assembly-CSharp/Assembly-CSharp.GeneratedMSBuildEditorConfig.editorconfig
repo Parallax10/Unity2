@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = 
-build_property.ProjectDir = C:\Users\pc02\Documents\github\Unity2\juegaco\
+build_property.ProjectDir = C:\Users\serte\Documents\Unity\juegaco\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

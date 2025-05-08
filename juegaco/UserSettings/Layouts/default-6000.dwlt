@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 90
+  controlID: 37
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 933
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -338,14 +338,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\pc02\Documents\github\Unity2\juegaco
+  m_LastProjectPath: C:\Users\serte\Documents\Unity\juegaco
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ccbb0000
-    m_LastClickedID: 48076
-    m_ExpandedIDs: 00000000ccbb00007008010000ca9a3b
+    m_SelectedIDs: 8afb0000
+    m_LastClickedID: 64394
+    m_ExpandedIDs: 00000000f008010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070080100
+    m_ExpandedIDs: 00000000f0080100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,9 +520,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 48140100
+      m_SelectedIDs: 8afb0000
       m_LastClickedID: 0
-      m_ExpandedIDs: c2a4feff64a5feff08a6feffdca6feff7ea7feff24a8feff20a9feff00acfeff3eaefeffe0aefeff84affeffe6b1feffe4b2feffe2b3feffc8b4feffc0b5feffe0b6fefff4b7feff00b9feff04bafeffb2bbfeff4cbcfeffb6bffeff60c0feff28c1feffeac3feff2cc5feff74c7feffb4c8feff56c9fefff8c9feff9ccafeff5acefefffccefeff4ad0feffeed0feff90d1feff32d2feff54d4feff98d5feff3ad6feffded6fefffad7feff9cd8feff3ed9feffe0d9feff82dafeff24dbfeffc6dbfeff6adcfeff10ddfeffc0dffeff04e1feff48e2feff0ae3feffd2e4feff78e5feff2ae7feffcce7feff6ee8feff14e9feff6aedfeff22effeff3ef0feffe8f0feff90f1feff5af5fefffcf5feff18f7feffa2fcfeff5600fffffc04ffffe608ffffae09ffff2610ffffea13ffff6c15ffffbe16ffff1c1cffff341dffff341fffff8e1fffff2c20ffffb623ffff0c29ffff222bffffc634ffff16080100260801003e080100540901001a0a0100320a0100620a0100840a0100d80a0100f00a0100060e01001e0e01005610010082100100de1101000a120100701201009c120100f21201001e130100a2140100d414010088160100ba160100f417010026180100a41a0100d61a0100fc1b01002e1c0100aa1d0100dc1d0100701f0100a21f01004020010072200100cc200100fe200100102101004221010054210100862101002422010056220100ac220100de220100f022010022230100342301006623010078230100aa230100bc230100ee2301000024010032240100442401007624010088240100ba24010010250100422501002026010052260100ac260100de260100
+      m_ExpandedIDs: 6233ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1155,7 +1155,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
