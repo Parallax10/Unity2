@@ -278,7 +278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3623362392021561379, guid: 97a5da55dbc23ae41bd239292dd8994a, type: 3}
+  m_Sprite: {fileID: -5441582996531059255, guid: 0cd39fb88a0134c46aa9defb0fb5deb5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -469,7 +469,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 957223686}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1889553135}
+        m_TargetAssemblyTypeName: CambiaeDentro, Assembly-CSharp
+        m_MethodName: tele3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &957223686
 MonoBehaviour:
   m_ObjectHideFlags: 0

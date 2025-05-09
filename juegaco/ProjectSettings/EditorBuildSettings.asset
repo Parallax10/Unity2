@@ -23,6 +23,90 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interior1.unity
     guid: c1fca58ed7d21ff4da8a6056951ecd44
+  - enabled: 1
+    path: Assets/Scenes/Interior2.unity
+    guid: 1755e33faf14b2f498fab1e416324d39
+  - enabled: 1
+    path: Assets/Scenes/Interior3.unity
+    guid: 5d01a22df405e124a89207db732005a9
+  - enabled: 1
+    path: Assets/Scenes/Interior4.unity
+    guid: a071652e20a7ba042a94c9f245b5db8e
+  - enabled: 1
+    path: Assets/Scenes/Interior5.unity
+    guid: c2ff4608eeb70ab43aa7135672d1071c
+  - enabled: 1
+    path: Assets/Scenes/Interior6.unity
+    guid: 9446f1fd604eb1348aad06a290d24dbe
+  - enabled: 1
+    path: Assets/Scenes/Interior7.unity
+    guid: 27d3c48d4069f42428e3f1cd77097440
+  - enabled: 1
+    path: Assets/Scenes/Interior8.unity
+    guid: 3b5af4ba48fcd2e408903de9b61def7e
+  - enabled: 1
+    path: Assets/Scenes/Interior9.unity
+    guid: 50a3a1b488e789c45bea9f8f5c8836b1
+  - enabled: 1
+    path: Assets/Scenes/Pantalla1.unity
+    guid: 2393ccdaab4482e4ba2d8dca4af749dc
+  - enabled: 1
+    path: Assets/Scenes/Pantalla2.unity
+    guid: 61ab24728fbff0e44a37a50b99f635cc
+  - enabled: 1
+    path: Assets/Scenes/Pantalla3.unity
+    guid: 1679d1afa8396904b8cbda6d9a5b5993
+  - enabled: 1
+    path: Assets/Scenes/Pantalla4.unity
+    guid: 4d1bf0ddec2e41a488b661666bf6b7e9
+  - enabled: 1
+    path: Assets/Scenes/Pantalla5.unity
+    guid: e1a45c1e7a863304cab76c6dc44b0222
+  - enabled: 1
+    path: Assets/Scenes/Pantalla6.unity
+    guid: dd7c5e524899c974aaf8e5909d9b2adb
+  - enabled: 1
+    path: Assets/Scenes/Pantalla7.unity
+    guid: 3cdfe8f36567b514d97d530884a7f679
+  - enabled: 1
+    path: Assets/Scenes/Pantalla8.unity
+    guid: b4bf580117a20c74f8fe10367003e5c7
+  - enabled: 1
+    path: Assets/Scenes/Pantalla9.unity
+    guid: ca88d1b0dd8d417439eb8f88294e6689
+  - enabled: 1
+    path: Assets/Scenes/tele1.unity
+    guid: be4a32cd89dbbf641bae3b9eda2f2443
+  - enabled: 1
+    path: Assets/Scenes/tele2.unity
+    guid: a6f902c089794f74c90cffd81f5301ab
+  - enabled: 1
+    path: Assets/Scenes/tele3.unity
+    guid: d13c0e5bfc7331b4aa98a4d2ae696e7c
+  - enabled: 1
+    path: Assets/Scenes/tele4.unity
+    guid: d558dcdd5d549b54594aa20457cd7ecf
+  - enabled: 1
+    path: Assets/Scenes/tele9.unity
+    guid: 2b95a40511ac0e0459915a47afdfcafc
+  - enabled: 1
+    path: Assets/Scenes/tele8.unity
+    guid: 3967e35deb7fb4a439e48cc707ab6adf
+  - enabled: 1
+    path: Assets/Scenes/tele7.unity
+    guid: 2f4256d14ff050d48b105ef0dbf6167b
+  - enabled: 1
+    path: Assets/Scenes/tele6.unity
+    guid: 13f4901c058d1074692cac47a99c802d
+  - enabled: 1
+    path: Assets/Scenes/tele5.unity
+    guid: 9895e75466195c649b759173c6770276
+  - enabled: 1
+    path: Assets/Scenes/Menu inicia.unity
+    guid: 11b6dd7bc4ed2c5418267de4b0ed8bf4
+  - enabled: 1
+    path: Assets/Scenes/Salida.unity
+    guid: 5a2f41c7f0da13146bb64b4ceedfc9f7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

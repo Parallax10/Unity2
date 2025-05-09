@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26120) 64bit Professional' Language: 'es' Physical Memory: 16155 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 16269 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/serte/Documents/Unity/juegaco
+C:/Users/pc02/Documents/github/Unity2/juegaco
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50289
+51268
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/serte/Documents/Unity/juegaco
-C:/Users/serte/Documents/Unity/juegaco
+Successfully changed project path to: C:/Users/pc02/Documents/github/Unity2/juegaco
+C:/Users/pc02/Documents/github/Unity2/juegaco
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,15 +59,15 @@ C:/Users/serte/Documents/Unity/juegaco
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13036]  Target information:
+Player connection [9820]  Target information:
 
-Player connection [13036]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 237983441 [EditorId] 237983441 [Version] 1048832 [Id] WindowsEditor(7,Sergio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9820]  * "[IP] 192.168.31.85 [Port] 0 [Flags] 2 [Guid] 2018835480 [EditorId] 2018835480 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JI3FN76) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13036]  * "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 237983441 [EditorId] 237983441 [Version] 1048832 [Id] WindowsEditor(7,Sergio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9820]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2018835480 [EditorId] 2018835480 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JI3FN76) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13036] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13036] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [9820] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9820] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -78,61 +78,62 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.42f1 (feb9a7235030)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/serte/Documents/Unity/juegaco/Assets
+[Subsystems] Discovering subsystems at path C:/Users/pc02/Documents/github/Unity2/juegaco/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0x1287)
     Vendor:   NVIDIA
-    VRAM:     3937 MB
-    Driver:   32.0.15.7216
+    VRAM:     2007 MB
+    Driver:   30.0.14.7514
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004654 seconds.
-- Loaded All Assemblies, in  0.474 seconds
+Registered in 0.003058 seconds.
+- Loaded All Assemblies, in  0.408 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.398 seconds
-Domain Reload Profiling: 869ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 731ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (186ms)
-		LoadAssemblies (162ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (132ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (152ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (398ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (326ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (346ms)
+		SetupLoadedEditorAssemblies (292ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,2266 +142,366 @@ Domain Reload Profiling: 869ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.932 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.831 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.188 seconds
-Domain Reload Profiling: 2113ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.735 seconds
+Domain Reload Profiling: 1563ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (632ms)
-		LoadAssemblies (426ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (318ms)
-			TypeCache.Refresh (236ms)
-				TypeCache.ScanAssembly (218ms)
-			BuildScriptInfoCaches (65ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1188ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (995ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (185ms)
-			ProcessInitializeOnLoadAttributes (612ms)
-			ProcessInitializeOnLoadMethodAttributes (180ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (7.5 MB). Loaded Objects now: 7219.
-Memory consumption went from 168.3 MB to 160.8 MB.
-Total: 20.041800 ms (FindLiveObjects: 1.079000 ms CreateObjectMapping: 2.250800 ms MarkObjects: 9.473200 ms  DeleteObjects: 7.237500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1343.533450 seconds.
-  path: Assets/Scenes/Fondos/pjanmes.jpg
-  artifactKey: Guid(d16cbadc7af35af42a9f5d06ec7b0127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fondos/pjanmes.jpg using Guid(d16cbadc7af35af42a9f5d06ec7b0127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cba0fa46addb9fe7e7429c9777eec5a') in 0.1762688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.954 seconds
-Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.186 seconds
-Domain Reload Profiling: 2137ms
-	BeginReloadAssembly (254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (592ms)
-		LoadAssemblies (448ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (234ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1187ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (912ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (195ms)
-			ProcessInitializeOnLoadAttributes (583ms)
-			ProcessInitializeOnLoadMethodAttributes (117ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6570 unused Assets / (8.5 MB). Loaded Objects now: 7230.
-Memory consumption went from 150.0 MB to 141.5 MB.
-Total: 23.439300 ms (FindLiveObjects: 1.259900 ms CreateObjectMapping: 1.898700 ms MarkObjects: 10.565700 ms  DeleteObjects: 9.713600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 423.089674 seconds.
-  path: Assets/Scenes/Fondos/menufondo.png
-  artifactKey: Guid(e8d03dff5ce222541bf25e03c5fd5ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fondos/menufondo.png using Guid(e8d03dff5ce222541bf25e03c5fd5ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c53a4dc6696e3423dcb604739e2ea53') in 0.1112994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.000 seconds
-Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.188 seconds
-Domain Reload Profiling: 2186ms
-	BeginReloadAssembly (290ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (607ms)
-		LoadAssemblies (433ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (281ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (249ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1189ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (914ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (192ms)
-			ProcessInitializeOnLoadAttributes (593ms)
-			ProcessInitializeOnLoadMethodAttributes (110ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 5.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6570 unused Assets / (7.3 MB). Loaded Objects now: 7232.
-Memory consumption went from 150.0 MB to 142.7 MB.
-Total: 21.664900 ms (FindLiveObjects: 1.119600 ms CreateObjectMapping: 2.005200 ms MarkObjects: 10.985700 ms  DeleteObjects: 7.552100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.937 seconds
-Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.159 seconds
-Domain Reload Profiling: 2091ms
-	BeginReloadAssembly (254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (563ms)
-		LoadAssemblies (447ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (221ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1160ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (886ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (560ms)
-			ProcessInitializeOnLoadMethodAttributes (120ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 3.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6570 unused Assets / (7.3 MB). Loaded Objects now: 7234.
-Memory consumption went from 150.0 MB to 142.7 MB.
-Total: 20.431800 ms (FindLiveObjects: 1.424200 ms CreateObjectMapping: 1.935600 ms MarkObjects: 9.643100 ms  DeleteObjects: 7.427500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.933 seconds
-Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.163 seconds
-Domain Reload Profiling: 2087ms
-	BeginReloadAssembly (243ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (578ms)
-		LoadAssemblies (454ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (218ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1163ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (896ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (571ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6570 unused Assets / (7.3 MB). Loaded Objects now: 7236.
-Memory consumption went from 150.0 MB to 142.8 MB.
-Total: 19.990100 ms (FindLiveObjects: 1.109700 ms CreateObjectMapping: 2.087800 ms MarkObjects: 9.174500 ms  DeleteObjects: 7.616500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.29 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6560 unused Assets / (7.3 MB). Loaded Objects now: 7237.
-Memory consumption went from 150.2 MB to 142.9 MB.
-Total: 174.768600 ms (FindLiveObjects: 1.453000 ms CreateObjectMapping: 2.280500 ms MarkObjects: 163.534000 ms  DeleteObjects: 7.499600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 241.769701 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c46584c6506301345e4c3e352a0b3ec') in 0.0199843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.184 seconds
-Refreshing native plugins compatible for Editor in 3.98 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.250 seconds
-Domain Reload Profiling: 2427ms
-	BeginReloadAssembly (359ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (67ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (692ms)
-		LoadAssemblies (522ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (312ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (280ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1250ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (943ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (212ms)
-			ProcessInitializeOnLoadAttributes (605ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 15.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.0 MB). Loaded Objects now: 7239.
-Memory consumption went from 150.0 MB to 141.9 MB.
-Total: 37.557500 ms (FindLiveObjects: 1.279800 ms CreateObjectMapping: 3.007800 ms MarkObjects: 22.721700 ms  DeleteObjects: 10.546800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.668053 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.007502 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011642 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008563 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008159 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016914 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007571 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007201 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009523 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0022049 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005927 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005928 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005801 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013234 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010194 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008985 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010008 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006835 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005596 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006893 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005894 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007096 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006466 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006547 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006486 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006682 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005899 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008898 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000721 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006037 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005841 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005694 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006837 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007218 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005575 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005447 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000605 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007606 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005807 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000577 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005175 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006682 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006972 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000569 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005504 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000577 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005259 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006262 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006157 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005882 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006844 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007395 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005868 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006062 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006378 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005665 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006864 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006458 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007731 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005704 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007579 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000663 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00062 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006281 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005392 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005657 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006475 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000912 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007687 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006265 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006677 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005284 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000643 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00076 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009395 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007015 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008261 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007379 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005393 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008618 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006743 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006829 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014306 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005709 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-  ERROR: Build asset version error: assets/scenes/scripts/menuinicio.cs in SourceAssetDB has modification time of '2025-05-03T10:31:18.7352704Z' while content on disk has modification time of '2025-05-03T10:31:30.5828069Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.031 seconds
-Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.281 seconds
-Domain Reload Profiling: 2309ms
-	BeginReloadAssembly (271ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (647ms)
-		LoadAssemblies (497ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (279ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (249ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1282ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (946ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (225ms)
-			ProcessInitializeOnLoadAttributes (583ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 6.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.1 MB). Loaded Objects now: 7241.
-Memory consumption went from 150.1 MB to 142.0 MB.
-Total: 30.112700 ms (FindLiveObjects: 3.554200 ms CreateObjectMapping: 2.461800 ms MarkObjects: 13.243000 ms  DeleteObjects: 10.852400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.734297 seconds.
-  path: Assets/Scenes/Scripts/MenuInicio.cs
-  artifactKey: Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/MenuInicio.cs using Guid(abe87e1bd36ad49468ac8e1576435fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d46c4019ab90b18a0e628b474a76f3f') in 0.0097253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.516665 seconds.
-  path: Assets/Scenes/Menu inicia.unity
-  artifactKey: Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu inicia.unity using Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4c1f5c399172ca833bd643939b9f5a0') in 0.0006719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.075 seconds
-Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.216 seconds
-Domain Reload Profiling: 2289ms
-	BeginReloadAssembly (298ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (654ms)
-		LoadAssemblies (524ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (281ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (246ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1217ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (931ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (175ms)
-			ProcessInitializeOnLoadAttributes (599ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 4.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.8 MB). Loaded Objects now: 7243.
-Memory consumption went from 150.1 MB to 141.3 MB.
-Total: 35.323000 ms (FindLiveObjects: 1.239600 ms CreateObjectMapping: 2.344100 ms MarkObjects: 9.229300 ms  DeleteObjects: 22.508500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.232 seconds
-Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.078 seconds
-Domain Reload Profiling: 2298ms
-	BeginReloadAssembly (324ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (708ms)
-		LoadAssemblies (558ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (310ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (270ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1079ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (812ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (498ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (7.3 MB). Loaded Objects now: 7245.
-Memory consumption went from 150.1 MB to 142.8 MB.
-Total: 18.836500 ms (FindLiveObjects: 1.123100 ms CreateObjectMapping: 2.031200 ms MarkObjects: 8.951300 ms  DeleteObjects: 6.729700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.050 seconds
-Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.986 seconds
-Domain Reload Profiling: 2033ms
-	BeginReloadAssembly (276ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (483ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (304ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (271ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (986ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (736ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (467ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (7.2 MB). Loaded Objects now: 7247.
-Memory consumption went from 150.1 MB to 142.9 MB.
-Total: 20.439400 ms (FindLiveObjects: 1.195400 ms CreateObjectMapping: 1.914200 ms MarkObjects: 10.720100 ms  DeleteObjects: 6.608600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 189.124967 seconds.
-  path: Assets/Scenes/Menu inicia.unity
-  artifactKey: Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu inicia.unity using Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13776b9c8790b97764040637ee8af783') in 0.0111335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.712581 seconds.
-  path: Assets/Scenes/Menu inicia.unity
-  artifactKey: Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu inicia.unity using Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b684ff188dfbcd25d2d79afd82fd908c') in 0.0006599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.041 seconds
-Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.110 seconds
-Domain Reload Profiling: 2149ms
-	BeginReloadAssembly (277ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (23ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (641ms)
-		LoadAssemblies (502ms)
+	LoadAllAssembliesAndSetupDomain (558ms)
+		LoadAssemblies (389ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (277ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (250ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1111ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (188ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (736ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (819ms)
+		SetupLoadedEditorAssemblies (601ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (236ms)
-			ProcessInitializeOnLoadAttributes (481ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 3.95 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.1 MB). Loaded Objects now: 7249.
-Memory consumption went from 150.1 MB to 142.0 MB.
-Total: 25.901100 ms (FindLiveObjects: 1.161200 ms CreateObjectMapping: 1.906900 ms MarkObjects: 11.150200 ms  DeleteObjects: 11.681500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.049 seconds
-Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.998 seconds
-Domain Reload Profiling: 3045ms
-	BeginReloadAssembly (266ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (669ms)
-		LoadAssemblies (506ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (295ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (257ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1999ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1653ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (466ms)
-			ProcessInitializeOnLoadAttributes (880ms)
-			ProcessInitializeOnLoadMethodAttributes (282ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 7.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.5 MB). Loaded Objects now: 7251.
-Memory consumption went from 150.1 MB to 141.6 MB.
-Total: 26.123300 ms (FindLiveObjects: 1.476400 ms CreateObjectMapping: 2.373300 ms MarkObjects: 12.239300 ms  DeleteObjects: 10.032600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.229 seconds
-Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.364 seconds
-Domain Reload Profiling: 2582ms
-	BeginReloadAssembly (315ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (766ms)
-		LoadAssemblies (587ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (325ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (285ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1364ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1015ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (235ms)
-			ProcessInitializeOnLoadAttributes (618ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 5.86 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.8 MB). Loaded Objects now: 7253.
-Memory consumption went from 150.1 MB to 141.3 MB.
-Total: 25.480000 ms (FindLiveObjects: 1.353000 ms CreateObjectMapping: 2.014300 ms MarkObjects: 11.285500 ms  DeleteObjects: 10.825700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 119.685890 seconds.
-  path: Assets/Scenes/PuertaSinllave.unity
-  artifactKey: Guid(ad416b9b14dd50041b2d18e9ea3f571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PuertaSinllave.unity using Guid(ad416b9b14dd50041b2d18e9ea3f571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '135b082ca400bdee6101300afc0463ba') in 0.0098129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.592966 seconds.
-  path: Assets/Scenes/Interior.unity
-  artifactKey: Guid(6ede28fed3652cc489821de2fd4c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Interior.unity using Guid(6ede28fed3652cc489821de2fd4c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '705463267ca67069121f58ecdc3a8cea') in 0.0006374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.382087 seconds.
-  path: Assets/Scenes/Menu inicia.unity
-  artifactKey: Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu inicia.unity using Guid(11b6dd7bc4ed2c5418267de4b0ed8bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b029770d7b978a7a3589d15c8fe897b1') in 0.0008074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6548 unused Assets / (4.7 MB). Loaded Objects now: 7247.
+Memory consumption went from 173.8 MB to 169.2 MB.
+Total: 10.036400 ms (FindLiveObjects: 0.954000 ms CreateObjectMapping: 0.939300 ms MarkObjects: 4.933300 ms  DeleteObjects: 3.207800 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.109 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.845 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.426 seconds
-Domain Reload Profiling: 2530ms
-	BeginReloadAssembly (278ms)
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1573ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (713ms)
-		LoadAssemblies (528ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (325ms)
+		AnalyzeDomain (205ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (289ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1427ms)
+			BuildScriptInfoCaches (183ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (728ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1086ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (252ms)
-			ProcessInitializeOnLoadAttributes (663ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (7.9 MB). Loaded Objects now: 7255.
-Memory consumption went from 150.1 MB to 142.2 MB.
-Total: 26.641300 ms (FindLiveObjects: 1.142800 ms CreateObjectMapping: 1.895500 ms MarkObjects: 12.908200 ms  DeleteObjects: 10.692500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 27.941595 seconds.
-  path: Assets/Scenes/EsponjaPiedra.unity
-  artifactKey: Guid(79220588682e9df45950b347ac4c8da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EsponjaPiedra.unity using Guid(79220588682e9df45950b347ac4c8da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8487ca33d189ddba0e3b3673fa24a261') in 0.0038815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.711289 seconds.
-  path: Assets/Scenes/Fondos/Pineappleesponja.png
-  artifactKey: Guid(885f927cc3e95a14183063f2770b3da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fondos/Pineappleesponja.png using Guid(885f927cc3e95a14183063f2770b3da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1857e2c2ccd3dc8e5b2c3ccbf38797a5') in 0.0868461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 240.778158 seconds.
-  path: Assets/Scenes/Fondos/Pineappleesponja.png
-  artifactKey: Guid(885f927cc3e95a14183063f2770b3da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fondos/Pineappleesponja.png using Guid(885f927cc3e95a14183063f2770b3da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53b9cc66923fd4c59f4dd7b04c462595') in 0.0543564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.511939 seconds.
-  path: Assets/Scenes/Televieja.unity
-  artifactKey: Guid(a306417df731c3541947d7a5d216bfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Televieja.unity using Guid(a306417df731c3541947d7a5d216bfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2be0d4c6d75ee63603ed958979e4e146') in 0.0008109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.098 seconds
-Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.373 seconds
-Domain Reload Profiling: 2467ms
-	BeginReloadAssembly (285ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (683ms)
-		LoadAssemblies (524ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (297ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (265ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1374ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1051ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (230ms)
-			ProcessInitializeOnLoadAttributes (663ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 4.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.1 MB). Loaded Objects now: 7259.
-Memory consumption went from 150.2 MB to 142.1 MB.
-Total: 23.285800 ms (FindLiveObjects: 1.304800 ms CreateObjectMapping: 3.157000 ms MarkObjects: 10.329800 ms  DeleteObjects: 8.492700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 106.984208 seconds.
-  path: Assets/Scenes/Interior.unity
-  artifactKey: Guid(6ede28fed3652cc489821de2fd4c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Interior.unity using Guid(6ede28fed3652cc489821de2fd4c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc53d833bfc7bbad46dd07927c1cb44') in 0.0041431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.471731 seconds.
-  path: Assets/Scenes/Sonidos/phasmophobia-sound-board-effects-21-sound-effects-door-handle-open_Jv9oBbR.mp3
-  artifactKey: Guid(0111f85a3d126ea4a955f6c9743f4254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sonidos/phasmophobia-sound-board-effects-21-sound-effects-door-handle-open_Jv9oBbR.mp3 using Guid(0111f85a3d126ea4a955f6c9743f4254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ff64cce563434b65919de0834132e43') in 0.1382013 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.048 seconds
-Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.389 seconds
-Domain Reload Profiling: 2432ms
-	BeginReloadAssembly (270ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (662ms)
-		LoadAssemblies (500ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (296ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (268ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1389ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1078ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (233ms)
-			ProcessInitializeOnLoadAttributes (695ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 3.49 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.1 MB). Loaded Objects now: 7268.
-Memory consumption went from 150.1 MB to 142.0 MB.
-Total: 21.841200 ms (FindLiveObjects: 1.094400 ms CreateObjectMapping: 1.847300 ms MarkObjects: 9.036100 ms  DeleteObjects: 9.861700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1803.890047 seconds.
-  path: Assets/Scenes/Videos/Añadir un título.mp4
-  artifactKey: Guid(f89bf57f0f45e7f46936874087cbb679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Videos/Añadir un título.mp4 using Guid(f89bf57f0f45e7f46936874087cbb679) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1710ec7c5ea9da6ae9d439f2cdaee41c') in 0.0403869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.313 seconds
-Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.568 seconds
-Domain Reload Profiling: 5875ms
-	BeginReloadAssembly (317ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (3846ms)
-		LoadAssemblies (3582ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (417ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (374ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1568ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1164ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (726ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 6.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (7.3 MB). Loaded Objects now: 7270.
-Memory consumption went from 150.2 MB to 142.9 MB.
-Total: 24.966600 ms (FindLiveObjects: 4.901600 ms CreateObjectMapping: 2.080200 ms MarkObjects: 9.748000 ms  DeleteObjects: 8.234500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.097 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.576 seconds
-Domain Reload Profiling: 2668ms
-	BeginReloadAssembly (303ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (678ms)
-		LoadAssemblies (523ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (293ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (263ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1577ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1237ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (242ms)
-			ProcessInitializeOnLoadAttributes (792ms)
-			ProcessInitializeOnLoadMethodAttributes (176ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 4.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (7.1 MB). Loaded Objects now: 7272.
-Memory consumption went from 150.2 MB to 143.1 MB.
-Total: 34.573500 ms (FindLiveObjects: 4.545000 ms CreateObjectMapping: 9.031100 ms MarkObjects: 11.603600 ms  DeleteObjects: 9.392600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 112.751835 seconds.
-  path: Assets/Scenes/Videos/Añadir un título (1).mp4
-  artifactKey: Guid(c0755705c2609af42b372217e4f16ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Videos/Añadir un título (1).mp4 using Guid(c0755705c2609af42b372217e4f16ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9969a2daa60e67341d17e56263807a0b') in 0.0263955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.071 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.367 seconds
-Domain Reload Profiling: 2435ms
-	BeginReloadAssembly (277ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (689ms)
-		LoadAssemblies (524ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (306ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (273ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1368ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1087ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (236ms)
-			ProcessInitializeOnLoadAttributes (697ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 6.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6571 unused Assets / (8.9 MB). Loaded Objects now: 7274.
-Memory consumption went from 150.2 MB to 141.3 MB.
-Total: 24.061600 ms (FindLiveObjects: 1.212000 ms CreateObjectMapping: 2.074300 ms MarkObjects: 10.405000 ms  DeleteObjects: 10.368700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6561 unused Assets / (7.7 MB). Loaded Objects now: 7275.
-Memory consumption went from 150.4 MB to 142.7 MB.
-Total: 20.730400 ms (FindLiveObjects: 1.120400 ms CreateObjectMapping: 1.900100 ms MarkObjects: 10.419900 ms  DeleteObjects: 7.288700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 143.774228 seconds.
-  path: Assets/Scenes/Scripts/TeleVieja.cs
-  artifactKey: Guid(74655102e1c685b4099ae7523d81f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/TeleVieja.cs using Guid(74655102e1c685b4099ae7523d81f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64a03d3f374b58b6b138f719956617fa') in 0.0128659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.364 seconds
-Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.899 seconds
-Domain Reload Profiling: 3257ms
-	BeginReloadAssembly (393ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (167ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (821ms)
-		LoadAssemblies (604ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (360ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (317ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1900ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1491ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (277ms)
-			ProcessInitializeOnLoadAttributes (1012ms)
-			ProcessInitializeOnLoadMethodAttributes (175ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 4.39 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (9.0 MB). Loaded Objects now: 7277.
-Memory consumption went from 150.2 MB to 141.2 MB.
-Total: 44.230400 ms (FindLiveObjects: 2.997000 ms CreateObjectMapping: 4.498500 ms MarkObjects: 23.344400 ms  DeleteObjects: 13.388800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.026 seconds
-Refreshing native plugins compatible for Editor in 4.37 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.332 seconds
-Domain Reload Profiling: 2354ms
-	BeginReloadAssembly (282ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (625ms)
-		LoadAssemblies (493ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (270ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (239ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1332ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1010ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (207ms)
-			ProcessInitializeOnLoadAttributes (656ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 5.68 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (7.6 MB). Loaded Objects now: 7279.
-Memory consumption went from 150.2 MB to 142.6 MB.
-Total: 23.299200 ms (FindLiveObjects: 1.190700 ms CreateObjectMapping: 4.028700 ms MarkObjects: 9.616900 ms  DeleteObjects: 8.461600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 47.777350 seconds.
-  path: Assets/Scenes/Interior.unity
-  artifactKey: Guid(6ede28fed3652cc489821de2fd4c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Interior.unity using Guid(6ede28fed3652cc489821de2fd4c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97bd952b74f827cc650ba403b2866679') in 0.0054223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.116 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.144 seconds
-Domain Reload Profiling: 2261ms
-	BeginReloadAssembly (288ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (702ms)
-		LoadAssemblies (509ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (328ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (282ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (1145ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (850ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (519ms)
-			ProcessInitializeOnLoadMethodAttributes (123ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (6.1 MB). Loaded Objects now: 7281.
-Memory consumption went from 150.2 MB to 144.1 MB.
-Total: 20.423900 ms (FindLiveObjects: 1.175500 ms CreateObjectMapping: 2.380500 ms MarkObjects: 9.575100 ms  DeleteObjects: 7.291500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.021 seconds
-Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.015 seconds
-Domain Reload Profiling: 2031ms
-	BeginReloadAssembly (266ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (635ms)
-		LoadAssemblies (501ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (235ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1016ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (760ms)
+		SetupLoadedEditorAssemblies (531ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (188ms)
-			ProcessInitializeOnLoadAttributes (477ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (8.2 MB). Loaded Objects now: 7283.
-Memory consumption went from 150.2 MB to 142.0 MB.
-Total: 20.405100 ms (FindLiveObjects: 1.088300 ms CreateObjectMapping: 1.898000 ms MarkObjects: 9.184600 ms  DeleteObjects: 8.233000 ms)
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6546 unused Assets / (4.5 MB). Loaded Objects now: 7250.
+Memory consumption went from 144.4 MB to 139.9 MB.
+Total: 12.085700 ms (FindLiveObjects: 1.110900 ms CreateObjectMapping: 1.222400 ms MarkObjects: 5.002500 ms  DeleteObjects: 4.748300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 1485ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6546 unused Assets / (4.2 MB). Loaded Objects now: 7252.
+Memory consumption went from 144.4 MB to 140.1 MB.
+Total: 9.928200 ms (FindLiveObjects: 1.145300 ms CreateObjectMapping: 0.902400 ms MarkObjects: 5.335000 ms  DeleteObjects: 2.544000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.673 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1402ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6546 unused Assets / (4.3 MB). Loaded Objects now: 7254.
+Memory consumption went from 144.4 MB to 140.1 MB.
+Total: 8.606600 ms (FindLiveObjects: 0.836800 ms CreateObjectMapping: 0.674300 ms MarkObjects: 4.229500 ms  DeleteObjects: 2.864900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6546 unused Assets / (4.3 MB). Loaded Objects now: 7256.
+Memory consumption went from 144.4 MB to 140.0 MB.
+Total: 8.578700 ms (FindLiveObjects: 0.720900 ms CreateObjectMapping: 0.709600 ms MarkObjects: 4.457900 ms  DeleteObjects: 2.688800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.699 seconds
+Domain Reload Profiling: 1372ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (700ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (520ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6546 unused Assets / (4.1 MB). Loaded Objects now: 7258.
+Memory consumption went from 144.3 MB to 140.2 MB.
+Total: 7.582600 ms (FindLiveObjects: 0.664000 ms CreateObjectMapping: 0.720400 ms MarkObjects: 4.082600 ms  DeleteObjects: 2.114700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.668 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (155ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (701ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6546 unused Assets / (4.2 MB). Loaded Objects now: 7260.
+Memory consumption went from 144.4 MB to 140.2 MB.
+Total: 7.454600 ms (FindLiveObjects: 0.688700 ms CreateObjectMapping: 0.681000 ms MarkObjects: 4.079900 ms  DeleteObjects: 2.004100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 76.047407 seconds.
-  path: Assets/Scenes/Televieja.unity
-  artifactKey: Guid(a306417df731c3541947d7a5d216bfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Televieja.unity using Guid(a306417df731c3541947d7a5d216bfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a56415bb986df4405023c85849abba7') in 0.0050667 seconds
+  Time since last request: 12858.009490 seconds.
+  path: Assets/Scenes/EsponjaPiedra.unity
+  artifactKey: Guid(79220588682e9df45950b347ac4c8da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EsponjaPiedra.unity using Guid(79220588682e9df45950b347ac4c8da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b353641c5949414f534dab1a0bfb7aaa') in 0.0421249 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.111 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.333 seconds
-Domain Reload Profiling: 2440ms
-	BeginReloadAssembly (304ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (681ms)
-		LoadAssemblies (513ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (318ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (291ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1334ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1025ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (209ms)
-			ProcessInitializeOnLoadAttributes (658ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (8.1 MB). Loaded Objects now: 7285.
-Memory consumption went from 150.2 MB to 142.2 MB.
-Total: 24.683200 ms (FindLiveObjects: 1.163400 ms CreateObjectMapping: 1.997200 ms MarkObjects: 11.772800 ms  DeleteObjects: 9.747700 ms)
+Received Import Request.
+  Time since last request: 12.766856 seconds.
+  path: Assets/Scenes/Interior8.unity
+  artifactKey: Guid(3b5af4ba48fcd2e408903de9b61def7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Interior8.unity using Guid(3b5af4ba48fcd2e408903de9b61def7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e40fa894adc3cc0b0ebc048814ab39') in 0.0007828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
