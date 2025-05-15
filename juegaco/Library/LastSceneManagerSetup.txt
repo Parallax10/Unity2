@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/tele1.unity
+- path: Assets/Scenes/Pantalla1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
